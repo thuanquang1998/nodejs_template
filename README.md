@@ -1,15 +1,17 @@
 ### LEVEL 1
 
 1. Structure
+```bash
 |__Configs // chủ yếu chứa Object: config dabatabse,...
 |__Helpers // chứa những document, function (được dùng chung): convert,...
 |__Models // ánh xạ của dababase
 |__Routes
 |__.env
-
+```
 ### LEVEL 2
 
 1. Structure
+```bash
 src
 |__config           // chủ yếu chứa Object: config dabatabse,...
 |__api
@@ -22,6 +24,7 @@ src
    |__validations
 .gitignore
 .env
+```
 
 2. Flow
 routes => controllers => validation (check) => services => models
