@@ -29,6 +29,7 @@ routes => controllers => validation (check) => services => models
 ### LEVEL 3
 
 1. Structure
+```bash
 src
 |__config                  // chủ yếu chứa Object: config dabatabse,...
 |__api
@@ -61,3 +62,4 @@ tests                      // test
 .gitignore
 .eslintignore              // format code
 .env
+```
